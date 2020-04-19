@@ -1,0 +1,231 @@
+html
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lemonada', cursive;
+}
+
+.header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(30deg, rgba(54,209,220,1) 23%, rgba(91,134,229,1) 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 71%, 0 94%);
+    padding-bottom: 300px;
+}
+
+.logo
+{
+    position: absolute;
+    top: 1%;
+    left: 12%;
+}
+
+.logo img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.navigation
+{
+    position: absolute;
+    top: 60px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ham
+{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 30px;
+}
+
+.navigation > div:nth-child(2)
+{
+    width: 40px;
+}
+
+.uvp
+{
+    padding-top: 200px;
+    width: 100%;
+    /* margin: 100px auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img
+{
+    display: flex;
+    position: relative;
+    width: 629px;
+    padding-bottom: 544px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../assets/images/yellow_globe.svg');
+    background-position-x: 34px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.download-android img
+{
+    width: 206.72px;
+    height: 80px;
+    margin-right: -15px;
+}
+
+.download-ios
+{
+    color: white;
+    background: rgb(255,101,106);
+    display: flex;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: right;
+}
+
+.download-text
+{
+    font-size: 20px;
+}
+
+.heading-container
+{
+    width: calc(100% / 2);
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-right: 90px;
+}
+
+.download-icon
+{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    margin-right: 20px;
+}
+
+
+.download-icon img
+{
+    height: inherit;
+    width: inherit;
+}
+.heading
+{
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+.subHeading
+{
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    direction: rtl;
+    text-align: right;
+}
+
+
+.howTo-text
+{
+    background: linear-gradient(30deg, rgba(91,134,229,1) 23%, rgba(54,209,220,1) 100%);
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    clip-path: polygon(0 0, 100% 12%, 100% 60%, 0 45%);
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.steps
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.step
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.step-text
+{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.step-img
+{
+    text-align: center;
+}
+
+.step-img img
+{
+    width: calc(100% / 2);
+}
+
+.report
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(120deg, rgba(255,131,131,1) 23%, rgba(255,0,0,1) 100%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 35%;
+    right: 10%;
+}
+
+.report img
+{
+    width: 70%;
+    height: 70%;
+}
+
+body > div.howTo > div.steps > div:nth-child(4) > div:nth-child(4)
+{ 
+    position: absolute;
+    background: linear-gradient(120deg, rgba(210,114,255,1) 23%, rgba(149,101,191,1) 100%);
+    top: 81%;
+    right: 66%;
+}
