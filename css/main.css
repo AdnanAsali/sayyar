@@ -152,16 +152,25 @@ body
     text-align: right;
 }
 
+.howTo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 .howTo-text
 {
     background: linear-gradient(30deg, rgba(91,134,229,1) 23%, rgba(54,209,220,1) 100%);
+    clip-path: polygon(0 0, 100% 12%, 100% 60%, 0 45%);
     text-align: center;
     font-size: 40px;
     color: white;
-    clip-path: polygon(0 0, 100% 12%, 100% 60%, 0 45%);
     padding-top: 100px;
     padding-bottom: 300px;
+    width: inherit;
 }
 
 .steps
@@ -173,59 +182,103 @@ body
     padding: 0 20px;
 }
 
-.step
+.step-container
 {
     position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.step
+{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     margin: 0 auto;
+    background: linear-gradient(30deg, rgba(91,134,229,1) 23%, rgba(54,209,220,1) 100%);
+    clip-path: polygon(0 32%, 100% 0, 100% 65%, 0 100%);
+    text-align: right;
+    width: 100%;
+    padding-top: 300px;
+    padding-bottom: 500px;
+     /* height: 700px; */
 }
 
 .step-text
 {
-    color: black;
+    color: white;
     font-size: 30px;
-    text-align: center;
-    margin: 100px 0px;
+    text-align: right;
+    padding-right: 8%;
+    max-width: 40%;
 }
 
 .step-img
 {
+
     text-align: center;
 }
 
 .step-img img
 {
-    width: calc(100% / 2);
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 10%;
+    width: calc(100% / 3);
+}
+
+.report-container
+{
+    position: absolute;
+    top: 104%;
+    left: 5%;
+    z-index: 3;
 }
 
 .report
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    position: relative;
     background: linear-gradient(120deg, rgba(255,131,131,1) 23%, rgba(255,0,0,1) 100%);
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    top: 35%;
-    right: 10%;
+    width: 130px;
+    height: 130px;
 }
 
 .report img
 {
-    width: 70%;
-    height: 70%;
+    position: absolute;
+    top: 20%;
+    right: 21%;
+    width: 65%;
+    height: 65%;
 }
 
-body > div.howTo > div.steps > div:nth-child(4) > div:nth-child(4)
-{ 
+
+.fights-container
+{
     position: absolute;
-    background: linear-gradient(120deg, rgba(210,114,255,1) 23%, rgba(149,101,191,1) 100%);
-    top: 81%;
-    right: 66%;
+    top: 55.9%;
+    right: 50%;
+    z-index: 3;
 }
+
+.fights
+{
+    position: relative;
+    background: linear-gradient(120deg, rgba(210,114,255,1) 23%, rgba(149,101,191,1) 100%);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+.fights img
+{
+    position: absolute;
+    top: 20%;
+    right: 21%;
+    width: 60%;
+    height: 60%;
+}
+
