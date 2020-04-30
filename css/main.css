@@ -302,13 +302,16 @@ body
 
 .card
 {
+    display: flex;
     width: calc(100% / 2);
     margin: 55px 20px;
     border: 1px solid #8080804a;
     border-radius: 50px;
     text-align: center;
-    padding: 50px 10px;
-
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card-text
