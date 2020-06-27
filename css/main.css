@@ -412,3 +412,8 @@ body
 {
     color: #09E489;
 }
+
+div:nth-child(1) > div.step-img > img
+{
+    width: 38%;
+}
