@@ -1,3 +1,9 @@
+@font-face
+{
+    src: url(/assets/fonts/Lemonada-VariableFont_wght.ttf);
+    font-family: 'Lemonada';
+}
+
 body
 {
     padding: 0px;
