@@ -18,59 +18,124 @@
 
 
 @media (min-width: 400px) {
-  .step-img img 
+  .step-img > img 
   {
     width: 40.6666666667%;
     left: 10%;
   }
+
+  .fights-container
+  {
+    right: 46%;
+    top: 51.9%;
+  }
+
+  .report-container
+  {
+    top: 89%;
+    left: 6%;
+  }
+
+  .all-reports 
+  {
+    width: 30%;
+  }
+
 }
 
 @media (min-width: 965px) 
 { 
-  .step-img img 
+  .step-img > img 
   {
     width: 30.6666666667%;
-    left: 18%;
+    left: 12%;
   }
+
+  .all-reports
+  {
+    width: 30%;
+  }
+
 }
 
 @media (min-width: 1200px) 
 {
-  .step-img img 
+  .step-img > img 
   {
     width: 25%;
     left: 20%;
   }
+
+  .all-reports
+  {
+    width: 30%;
+  }
 }
+
+@media (min-width: 1400px) 
+{ 
+  .fights-container
+  {
+    right: 51%;
+    top: 53.9%;
+  }
+
+  .report-container
+  {
+    top: 97%;
+    left: 14%;
+  }
+
+  .all-reports
+  {
+    width: 40%;
+  }
+}
+
 
 @media (min-width: 1500px) 
 {
-  .step-img img 
+  .step-img > img 
   {
     width: 22%;
+  }
+
+  .all-reports
+  {
+    width: 40%;
   }
 }
 
 @media (min-width: 1600px) 
 {
-  .step-img img 
+  .step-img > img 
   {
     width: 20%;
+  }
+
+  .all-reports
+  {
+    width: 40%;
   }
 }
 
 @media (min-width: 1800px) 
 {
-  .step-img img 
+  .step-img > img 
   {
     width: 18%;
+  }
+
+  .all-reports
+  {
+    width: 40%;
   }
 }
 
 
 /* 
 /* For devices larger than 550px */
-/* @media (min-width: 550px) 
+@media (min-width: 550px) 
 {
   .column,
   .columns 
@@ -133,4 +198,4 @@
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 
-} */
+}

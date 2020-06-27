@@ -182,7 +182,7 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    
 }
 
 .step-container
@@ -227,12 +227,23 @@ body
     left: 10%;
 }
 
+.all-reports
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 40%;
+    top: 51%;
+    right: 12%;
+
+}
+
 .report-container
 {
-    position: absolute;
-    top: 104%;
-    left: 5%;
-    z-index: 3;
+    top: 89%;
+    left: 6%;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .report
@@ -242,6 +253,9 @@ body
     border-radius: 50%;
     width: 130px;
     height: 130px;
+    -webkit-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
 }
 
 .report img
@@ -254,14 +268,6 @@ body
 }
 
 
-.fights-container
-{
-    position: absolute;
-    top: 55.9%;
-    right: 50%;
-    z-index: 3;
-}
-
 .fights
 {
     position: relative;
@@ -269,6 +275,9 @@ body
     border-radius: 50%;
     width: 130px;
     height: 130px;
+    -webkit-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
 }
 
 .fights img
@@ -288,6 +297,48 @@ body
     flex-direction: column;
     margin-top: 300px;
     margin-bottom: 100px;
+}
+
+.azmeh-salkeh
+{
+    position: relative;
+    background: linear-gradient(120deg, rgba(255,208,0,1) 23%, rgba(255,157,0,1) 100%);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    -webkit-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 30px 90px 5px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+}
+
+.azmeh-salkeh img
+{
+    position: absolute;
+    top: 20%;
+    right: 21%;
+    width: 60%;
+    height: 60%;
+}
+
+.salkeh
+{
+    position: relative;
+    background: linear-gradient(120deg, rgba(133,236,141,1) 23%, rgba(32,196,44,1) 100%);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    -webkit-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+}
+
+.salkeh img
+{
+    position: absolute;
+    top: 20%;
+    right: 21%;
+    width: 60%;
+    height: 60%;
 }
 
 .func-title 
