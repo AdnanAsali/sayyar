@@ -1,14 +1,18 @@
 @font-face
 {
-    src: url(/assets/fonts/Lemonada-VariableFont_wght.ttf);
+    src: url(../assets/fonts/Lemonada.ttf);
     font-family: 'Lemonada';
+}
+
+*
+{
+    font-family: 'Lemonada', cursive;
 }
 
 body
 {
     padding: 0px;
     margin: 0px;
-    font-family: 'Lemonada', cursive;
 }
 
 .header
@@ -185,7 +189,7 @@ body
 {
     position: relative;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 .step
@@ -212,7 +216,6 @@ body
 
 .step-img
 {
-
     text-align: center;             
 }
 
@@ -222,7 +225,6 @@ body
     z-index: 2;
     top: 40%;
     left: 10%;
-    width: calc(100% / 3);
 }
 
 .report-container
